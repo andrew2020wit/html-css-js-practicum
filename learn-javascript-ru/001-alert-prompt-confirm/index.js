@@ -9,7 +9,7 @@ function run() {
 
 function getUserName() {
   let userName;
-  userName = prompt("What are you name?");
+  userName = prompt("What are your name?");
   if (!userName) {
     return "incognito";
   }
